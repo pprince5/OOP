@@ -1,0 +1,20 @@
+/***********************************************************************
+// OOP244 Workshop #5 DIY (part 2): tester program
+//
+// File  main.cpp
+// Version 1.0
+// Author   Asam Gulaid, revised by Fardad Soleimanloo
+// Description
+//
+// Revision History
+// -----------------------------------------------------------
+// Name Prince            Date 15-10-2023           Reason
+***********************************************************************/
+//Student Id: 145685228
+// Mail: pprince5@myseneca.ca
+// Section: ZDD
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+Well, In this assignment, I learned about overloading member operators and using helper functions, I made my grip on overloading functions and using them along with helper functions. overloading an operator helps modify the way it behaves by passing it along with an object like in the assignment (int)object_name it gives the integer values from the function. This was helpful as it reduced the need to write the code again, similarly, the helper functions helped to reduce the necessity of writing again like comparing and adding helper functions, moreover, this also makes it more readable and understandable than int with the object would return int value similarly all other member operators unary and binary operators were overloaded. Initially, it was difficult for me to understand the concept of overloading I just learned the syntax and was heading to do the assignment but as I went through the assignment implementing all things made me understand the actual meaning and working.
+I was facing a problem with implementing overloaded operators, it took me some time to get to know how to call or use an overloaded operator to get the required results. 

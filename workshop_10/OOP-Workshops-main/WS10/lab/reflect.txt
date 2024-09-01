@@ -1,0 +1,23 @@
+/***********************************************************************
+OOP244 Workshop #
+WORKSHOP -10
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228 
+DATE: december 4, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+In my final workshop for this semester, Workshop Number Ten, we focused on using "templates" to make certain functions in our code work more smoothly. These functions were used in seven different parts of our project.
+
+The main focus of templates is making a code part that is reusable so that it can be used again and again with different types of inputs like integers classes decimals at the same time this workshop also included casting. This helps us avoid repeating the same code for different data types, making it easier to manage and update our code in the future.
+Initially, I struggled with templates as I wondered why there is no cpp file templates are all done in header file only but after reviewing the course material I was able to do it. Also the casting part was bit confusing but however now i understood all this things clearly.
+
+Overall, I enjoyed working on this workshop because it was not too difficult. We mainly had to declare templates in one part of our code and then use them in another part. 

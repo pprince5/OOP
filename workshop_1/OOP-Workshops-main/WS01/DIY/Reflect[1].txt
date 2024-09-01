@@ -1,0 +1,25 @@
+/***********************************************************************
+OOP244 Workshop #1
+WORKSHOP -1
+NAME: Prince
+STUDENT ID: 145685228
+EMAIL: pprince5@gmail.com
+DATE: September 18, 2023
+I hereby decalre that i have done the code independently and only copied code that
+was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+
+
+Done with the first workshop in OOP244, I noticed some familiar concepts from my previous course, IPC144. For instance, I recalled the practice of creating a header file. Additionally, I learned the usage of the namespace std, which enables the use of standard library components, predefined variables, classes, functions, or objects like cout and cin.
+
+I also understood the purpose of cout and cin. cout is an output indicator for displaying data in the terminal whereas, cin acts as an input prompt for reading user input.I also came across the use of include guards, such as #ifndef (if not defined) and #define, especially in files like directory.cpp, the main component of the program. By employing these declarations, one can prevent unnecessary bugs and errors that might arise due to inadvertent header file inclusion.
+ I employed loop statements and if-else statements to increase the understanding of my code. The while loop was particularly useful as it allowed the program to repeatedly prompt the user for input until they entered a termination character like "!". This ensured that the code continued to function until the user decided to stop.
+
+Speaking of challenges, initially, I was using a for loop for the iteration but i failed faced a lot of errors and at last, I ended up using a while loop, also being unaware of #ifndef in the starting i struggled to understand the purpose of code completely. however after the lab class and after giving the assignment the necessary time needed I was able to overcome all problems and have a good code.

@@ -1,0 +1,15 @@
+/***********************************************************************
+// OOP244 Workshop #6 
+// -----------------------------------------------------------
+// Name Prince            Date 15-10-2023           Reason
+***********************************************************************/
+//Student Id: 145685228
+// Mail: pprince5@myseneca.ca
+// Section: ZDD
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+Well, this workshop was a summary of all previous weeks, it made me revise everything I did in previous workshops like creating constructors, copy constructors, copy assignment operators, taking care of memory leaks, and all the other stuff. In addition, this workshop also included using 2 global functions which were tricky in starting to understand how to apply them but with the help of examples provided, I figured it out and used them in my code which made it look easier and simpler. This workshop unlike other workshops helped me to have a tighter grip on all these methods as in this workshop the details were less compared to earlier workshops making it more challenging. Initially, I struggled a bit but with reference from previous workshops I managed to make the code overload. I failed on the first try, was getting errors, and was not able to find how to fix bugs, but slowly by giving time to scan the readme file, testing cases helped me write better code. Moreover, I also faced a memory leak in my code which was due to a silly mistake as I was declaring a dynamic array instead of a dynamic string this little thing confused me for about a day.
+So as a whole, this workshop revised the old stuff while making me familiar with global functions and helping me get a stronger grip on all the concepts.

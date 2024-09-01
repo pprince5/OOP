@@ -1,0 +1,19 @@
+/***********************************************************************
+OOP244 Workshop #4
+WORKSHOP -4
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228
+DATE: October 09, 2023
+I authenticate this work as independent and assure that all code is made
+by me, expect the code that the professor provided for help,///
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+
+While progressing through the initial stages of this workshop, particularly in parts one and two, I adopted the member variable identifier (m_) for enhanced clarity in distinguishing between member variables and parameters. This precaution becomes crucial when variable names overlap. I consistently applied the identifier (m_) across the Label.h, Label.cpp, LabelMaker.h, and LabelMaker.cpp files. In addition to leveraging the m_ convention, I made extensive use of default constructors and destructors. Upon delving into the second part of the workshop, two new global variables, namely "std::istream" and "std::ostream," were introduced in one of the functions within the "Label" header file. Initially posing a puzzle, these variables declare themselves as input and output stream objects. Their purpose tightly aligns with two other functions: readLabels and printLabels. While grappling with implementing the printLabel function, I encountered a challenge in structuring the code due to its intricate formatting requirements. The inclusion of a new header guard, <iomanip>, proved pivotal in overcoming this hurdle. This header allowed me to effectively utilize commands like setfill and setw, contributing to the precise arrangement and formatting within the printLabel function. Despite the initial complexity of the printLabel function, navigating through the workshop remained relatively smooth. However, it was a valuable learning experience, particularly regarding code organization and utilization of C++ features.

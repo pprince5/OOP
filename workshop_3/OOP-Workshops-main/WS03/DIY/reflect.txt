@@ -1,0 +1,22 @@
+/***********************************************************************
+OOP244 Workshop 3
+diy
+NAME: Prince Prince
+STUDENT ID: 145685228
+SENECA EMAIL: pprince5@gmail.com
+DATE: October 1, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+This workshop was mainly based on iteration and checks, unlike other workshops I was not working with files in this workshop which made my experience completely different, moreover, I increased my skills towards looping and check statements having prior knowledge of loops from IPC144 I found this workshop very interesting. Instead of file functions more use of boolean operators was needed in this. The boolean operator checks the valid condition and returns true if the condition is satisfied, otherwise false, these are the only two results of the boolean operator which made it easy and more understandable for my iteration to work and also made my code more readable and understandable.
+
+ I faced difficulty with Train:load function was not able to load the number of passengers properly, but somehow managed and found that I was not making if else condition in the right way, however, the transfer function was also risky as it could have memory leaks but fortunately, I faced no leaks deleted all the allocated memory and was able to run my code.
+To conclude, this workshop was totally different from the prior ones, and I really liked it as I improved my hand-skills on iterations and boolean operators.
+

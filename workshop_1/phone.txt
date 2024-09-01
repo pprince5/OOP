@@ -1,0 +1,9 @@
+﻿Build started...
+1>------ Build started: Project: DIY, Configuration: Debug x64 ------
+1>cStrTools.cpp
+1>directory.cpp
+1>Phone.cpp
+1>Generating Code...
+1>DIY.vcxproj -> C:\Users\jalpr\OneDrive\Desktop\seneca\SEM-2\OOP\workshop_1\OOP-Workshops-main\WS01\DIY\x64\Debug\DIY.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:49 PM and took 01.080 seconds ==========

@@ -1,0 +1,22 @@
+/***********************************************************************
+OOP244  MIlestone
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228 
+DATE: december 8, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+
+Create a file call `reflect.txt`.
+
+Add all your citations (coding help received or coding help offered to other students)
+
+Write about your final solution for the **project** and the OOP244 subject overall, what you learned and mention any issues that caused you difficulty.
+
+
+well, to start with this course was amazing and totally a new experience for me i learnt a lot about C++ object-oriented language.
+The final project was the tricky one as it included all the material that we were taught from beginning. it took me long to understand all the things happening in the final project especially the last ms5 as it included all functions classes I had to go through all previous milestones to remind me of all classes functions their functionalities to develop the ms5. MS5 controlled the whole milestones. The final project made my grip tighter on all the things that I learned during this course. I also faced a lot of difficulties errors, however with help of notes provided I was able to understand things.
+OOP244 was a great course I came to know a lot about the C++ how languages work as this is my second language after c language in IPC144, however OOP was quite good and first course which made me familiar with working of memories codes duplication how actually memory is managed and code and run during run time compile time etc.
+Overall, I would say this course made my base stronger to step into the world of coding and programming.

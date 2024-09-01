@@ -1,0 +1,125 @@
+//*****************************************************************************
+//<assessment name: Workshop - #2 (Part - 1)>
+//  Full Name : Prince Prince
+//	Email : pprince5@myseneca.ca
+//  Student ID# : 145685228
+//	Section : OOP244 ZBB
+//	Authenticity Declaration :
+//I hereby decalre that i have done the code independently and only copied code that
+//was provided by the professor to help with workshops and assignments.
+//* ****************************************************************************
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include "Employee.h"
+#include "File.h"
+#include <cstring>
+
+using namespace std;
+namespace sdds 
+{
+
+    int noOfEmployees;
+    Employee* employees;
+
+
+    void sort()
+    {
+        int i, j;
+        Employee temp;
+        for (i = noOfEmployees - 1; i > 0; i--) 
+        {
+            for (j = 0; j < i; j++)
+            {
+                if (employees[j].m_empNo > employees[j + 1].m_empNo) 
+                {
+                    temp = employees[j];
+                    employees[j] = employees[j + 1];
+                    employees[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // TODO: Finish the implementation of the 1 arg load function which
+    // reads one employee record from the file and loads it into the employee reference
+    // argument
+    bool load(Employee& employees) 
+    {
+        bool ok = false;
+        // return the combined success result of the three read functions.
+        // functions set the properties of the reference argument of load function.
+        ok = read(employees.m_empNo);
+        ok = read(employees.m_salary);
+        ok = read(employees.m_name);
+
+        return ok;
+    }
+    // TODO: Finish the implementation of the 0 arg load function 
+// Implementation of the 0 arg load function
+    bool load() 
+    {
+        bool ok = false;
+        if (openFile(DATAFILE)) 
+        {
+            noOfEmployees = noOfRecords();
+            employees = new Employee[noOfEmployees];
+            for (int i = 0; i < noOfEmployees; i++) 
+            {
+                if (!load(employees[i]))
+                {
+                    cerr << "Error: incorrect number of records read; the data is possibly corrupted." << endl;
+                    delete[] employees;
+                    employees = nullptr;
+                    noOfEmployees = 0;
+                    ok = false; 
+                }
+            }
+            closeFile();
+            ok = true;
+        }
+        return ok;
+    }
+
+    //Display Record with right form
+    void displayRecord(const Employee& employees)
+    {
+            cout << employees.m_empNo << ": " << employees.m_name << ", $" << (int)employees.m_salary << endl;
+    }
+
+    // TODO: Implementation for the display functions go here
+    void display()
+    {
+        sort();
+        displayHeader();
+        for (int i = 0; i < noOfEmployees; i++)
+        {
+            cout << i + 1 << "- ";
+            displayRecord(employees[i]);
+        }
+    };
+
+    // TODO: Implementation for the deallocateMemory function goes here
+    void deallocateMemory() 
+    {
+        int i;
+        if (employees != NULL)
+        {
+            for (i = 0; i < noOfEmployees; i++)
+            {
+                delete[] employees[i].m_name;
+            }
+            delete[] employees;
+            employees = NULL;
+        }
+    };
+
+
+    //Display Header
+    void displayHeader()
+    {
+        cout << "Employee Salary report, sorted by employee number" << endl;
+        cout << "no- Empno, Name, Salary" << endl;
+        cout << "------------------------------------------------" << endl;
+    };
+}

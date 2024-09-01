@@ -1,0 +1,21 @@
+/***********************************************************************
+OOP244 Workshop #
+WORKSHOP -8
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228 
+DATE: November 22, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+To start with, this workshop was completely different from the old one's. This workshop described one of the 4 pillars of OOP that is polymorphism (using the same code but in different forms).moreover, I learnt about the virtual functions, pure virtual functions and abstract class. This workshop required defining some pure virtual functions and than overriding them in inherited classes. It was quite interesting and completely new concept for me liking learning what a virtual function is, it’s use and what is difference between virtual and pure virtual function. Talking about the problems, initially i found it difficult to inherit a class from base class as I was confused with public, private, and protected accessors, it took me a while to understand how they work, what members and functions will be accessible in inherited class and which not. Furthermore, implementing them was also tricky. initially I thought that we do not need to declare the virtual functions in inherited class, and I was directly defining them, as a result faced errors, however with the reference from the notes and examples, I was able to understand the working and implementation of virtual functions. I found this a very good and interesting way to reduce the code writing and a gameplay like playing with functions and classes.
+In total I would say this workshop gave a very good overview of virtual functions and helped me to grab them and I am pretty sure in the upcoming workshops, I am using these getting my grip tighter on functioning of these virtual functions.  
+
+

@@ -1,0 +1,32 @@
+/***********************************************************************
+OOP244 Workshop #2
+Part -2
+NAME: Prince
+STUDENT ID: 145964227
+SENECA EMAIL: pprince5@gmail.com
+DATE: September 23, 2023
+//I hereby declare that i have done the code independently and only copied code that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+
+
+During the course of this workshop, I delved into several fundamental programming concepts. It began with Boolean operators, which are instrumental in expressing logical conditions as TRUE or FALSE. These operators played a crucial role in my Workshop 2. I employed the "!" operator to exit loops when certain conditions were met. However, grasping the "!" operator's behavior was initially complex for me. Since it inverts the original value—transforming true into false and vice versa. Over time and through continued practice I learned different data types in the C programming language. I encountered familiar types. This foundational knowledge served as a solid base for the subsequent topics covered in the workshop.
+
+I also encountered Boolean operators weren't the only essential concept I tackled. Dynamic memory allocation, which provides flexibility in storing data and managing with memory of the program. it allows you to have the memory as much and whenever needed.
+
+Two vital operators, "new" and "delete," became my tools of choice for managing dynamic memory. "New" allowed me to allocate memory for objects or arrays on the heap, providing a pointer to the allocated memory for subsequent manipulation. Conversely, "delete" was crucial for deallocating previously allocated memory to ensure efficient memory management.
+
+Challenges: Firstly, I faced difficulty in making a loop to check and sort the data(postal code).
+ Additionally, releasing dynamically allocated memory posed some confusion initially, as it involved complexities beyond memory allocation and witnessing memory leaks, but However, with persistence and understanding of these concepts, I ultimately succeeded in effectively managing dynamic memory.
+
+In summary, this workshop journey not only deepened my understanding of fundamental programming concepts but also honed my problem-solving skills and mental agility when working with powerful yet intricate tools like Boolean operators and dynamic memory allocation.
+
+
+
+

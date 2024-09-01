@@ -1,0 +1,22 @@
+/***********************************************************************
+OOP244 Workshop #
+WORKSHOP -9
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228 
+DATE: November 28, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+Well, unlike other workshops this workshop was comparatively shorter and not much tough, however, this included using inherited classes and overriding inherited functions that are not actually virtual. This workshop made me learn about how we explicitly call base class operators (copy operator, copy assignment operator) while calling the inherited class operators and how we properly delete memory explicitly. Talking about the problems, initially, I made this workshop in an hour and thought that it is easy but after running the code I realized that something was wrong here, my outputs were not matching as I was not calling the base class constructor and copy operators explicitly and as there is no virtual function so overriding was giving some issues, it took me some while to get to this and then I also had memory leak which I corrected by declaring the destructor as virtual.
+To conclude, this short workshop made my grip tighter on inherited class and calling base class functions explicitly when not virtual giving me a clearer image of polymorphism.
+
+
+

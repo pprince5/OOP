@@ -1,0 +1,27 @@
+/***********************************************************************
+OOP244 Workshop #
+WORKSHOP -7
+NAME: Prince Prince 
+SENECA EMAIL: pprince5@myseneca.ca
+STUDENT ID: 145685228 
+DATE: November 14, 2023
+//I hereby declare that I have done the code independently and only copied the code
+// that was provided by the professor to help with workshops and assignments.
+***********************************************************************/
+
+Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time, and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty.
+
+Well ,this workshop was a quick revision of all the previous workshops along with new feature of derived classes. All the other things were similar to previous one's like copy constructor, overloading and other things making my grip more tighter on these concepts, however, the derived classes were new thing for me. It took me a while to learn how it works and understand
+the real meaning and purpose of overloading constructors in derived class. I learnt about virtual functions also from the notes which was not yet included in this workshop. Talking about
+ the problems, initially, I had problem in defining the constructor for the derived class as there was no default constructor for the base class, so initiallising the derived class only 
+with paramaterised constructor that calls the paramaterised constructor of the base class was difficult and tricky for me, however, after learnig about it from the notes, internet and 
+getting help from videos, I was capable to understand the thing and make the constructor work in the desired way. Obviously, i faced some errors in the starting but was  successful at
+ the end.
+In the end, i would say it was quit tricky but was actually interseting and mindfull to do. 
+
+
+
